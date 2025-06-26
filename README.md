@@ -10,6 +10,12 @@ wenn man fertig ist, kann man die zugedeckten Teile des Canvas aufdecken und die
 Dazu wird dann an die anderen ein Soundeffekt gesendet und man selbst hat nicht mehr die Möglichkeit zuzeichnen.
 Sobald mehr als 4 Leute dem Raum beitreten wird ein neuer Raum erstellt.
 
+Anleitung zum Spiel
+-
+- Man wartet bis alle vier Leute in einem Raum sind (sonst werden die Striche nicht komplett übernommen)
+- Dann zeichnet man den gewünschten Körperabschnitt
+- Zum Schluss drückt man auf den Fertig Button und sieht was die anderen gezeichnet haben
+
 Verwendete API's
 -
 - Web-Rooms (basierend auf WebSocket) 
