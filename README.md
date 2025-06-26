@@ -1,5 +1,6 @@
 Cadavre Exquis von Siobhán Dieterle (https://github.com/shiiiveiiir) und Sina Schweickert
 -
+https://sinerbeener.github.io/cc2/CadavreExquis/
 Vorstellung:
 -
 Bei unserem Cadavre Exquis ist es möglich Online mit 4 anderen zuzeichnen und gemeinsam eine Kreatur zuerschaffen.
