@@ -1,8 +1,8 @@
 Cadavre Exquis von Siobhán Dieterle (https://github.com/shiiiveiiir) und Sina Schweickert
 -
-https://sinerbeener.github.io/cc2/CadavreExquis/
+Zum Spiel: https://sinerbeener.github.io/cc2/CadavreExquis/
 
-Vorstellung:
+Vorstellung/Kurze Beschreibung:
 -
 Bei unserem Cadavre Exquis ist es möglich Online mit 4 anderen zuzeichnen und gemeinsam eine Kreatur zuerschaffen.
 Jeder bekommt dabei einen Abschnitt zugeteilt in dem man den zugeteilten Körperabschnitt zeichnen kann.
@@ -20,5 +20,10 @@ Schwierigkeiten und Erkenntnisse
 -
 - Canvas synchonisation: Wir hatten Probleme um einen canvas zu erstellen auf dem man zusammen zeichnen kann. Wir haben es dann gelöst indem wir die Koordinaten direkt an die anderen Clients in dem Raum schicken.
   Geholfen hat uns dieses Video: https://youtu.be/i6eP1Lw4gZk?si=0SiX8c8EMFnA-chp
-- 
+- Overlay für den Canvas: zuerst funktionierte das "Overlay" nicht da des nicht verschwunden ist und später auch die anderen Striche nicht gezeigt wurden. Das haben wir dann gelöst indem die Striche sozusagen zwischen gespeichert haben damit sie beim reveal nicht gelöscht werden
+
+Wer hat was gemacht?
+-
+- Siobhán: Webrooms Kommunikation mit den anderen Räumen
+- Sina: Funktion des Spiels
 
