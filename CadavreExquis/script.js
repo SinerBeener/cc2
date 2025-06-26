@@ -103,7 +103,7 @@ function setup() {
   revealBtn.addEventListener('click', () => {
     revealing = true;
 
-    // ⬆️ Nachricht senden, um Sound bei allen Clients auszulösen
+    //um Sound bei allen Clients auszulösen
     sendMsg("*broadcast-message*", ["play-sound", "reveal"]);
   });
 }
@@ -151,7 +151,7 @@ function updateInfo() {
     const zoneNames = ["Kopf", "Oberkörper", "Beine", "Füße"];
     const myZone = globalClientId % zoneCount;
 
-    clientInfoElem.textContent = `Du bist Spieler #${globalClientId + 1} von ${clientCount} (zeichne: ${zoneNames[myZone]})`;
+    clientInfoElem.textContent = `Du bist Spieler #${globalClientId + 1} (zeichne: ${zoneNames[myZone]})`;
   }
 }
 
