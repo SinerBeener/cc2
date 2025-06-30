@@ -35,21 +35,21 @@
 
 
         <!-- Punkteanzeige -->
-        <a-entity id="scoreText" position="0.4 0.3 -1.5" text="value: Punkte: 0; color: white; width: 3;"></a-entity>
+        <a-entity id="scoreText" position="0.4 0.3 -1.5" text="value: Punkte: 0; color: #cc7a00; width: 3;"></a-entity>
 
         <!-- Szenewechsel-Button -->
         <a-box id="button" color="#33d7cc" position="-1 0 -3" width="1.5" height="0.2"
             event-set__enter="_event : mouseenter; material.color: #10a89e"
             event-set__leave="_event : mouseleave; material.color: #33d7cc">
         </a-box>
-        <a-text id="buttonText" value="Nacht" align="center" position="-1 0.5 -3" color="#ffffff" width="10"></a-text>
+        <a-text id="buttonText" value="Nacht" align="center" position="-1 0.5 -3" color="#10a89e" width="10"></a-text>
 
         <!-- Upgrade-Button -->
         <a-box id="upgradeButton" color="#ff9900" position="2 0 -3" width="1.5" height="0.2"
             event-set__enter="_event : mouseenter; material.color: #cc7a00"
             event-set__leave="_event : mouseleave; material.color: #ff9900">
         </a-box>
-        <a-text id="upgradeText" value="Upgrade (25P)" align="center" position="2 0.5 -3" color="#ffffff"
+        <a-text id="upgradeText" value="Upgrade (25P)" align="center" position="2 0.5 -3" color="#cc7a00"
             width="10"></a-text>
 
         <!-- Hintergrund und Effekte -->
