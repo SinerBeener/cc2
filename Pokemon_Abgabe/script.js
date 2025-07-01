@@ -44,6 +44,12 @@ AFRAME.registerComponent('catch-pokemon', {
                     el.parentNode.removeChild(el);
                     score += 5;
                     document.querySelector('#scoreText').setAttribute('text', `value: Punkte: ${score}`);
+
+                    // SOUND ABSPIELEN
+                    const soundPlayer = document.querySelector('#soundPlayer');
+                    if (soundPlayer && soundPlayer.components.sound) {
+                        soundPlayer.components.sound.playSound();
+                    }
                 } else {
                     el.setAttribute('animation__escape', {
                         property: 'rotation',
