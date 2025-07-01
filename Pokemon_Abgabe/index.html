@@ -28,13 +28,14 @@
             <a-asset-item id="pokeballModelUpgrade2" src="meisterball.glb"></a-asset-item>
 
             <audio id="catchSound" src="ping.wav"></audio>
-
+            <!--audio id="musicDay" src="musik_tag.mp3"></audio-->
+            <audio id="musicNight" src="musik_nacht.mp3"></audio>
+            
         </a-assets>
 
         <a-camera id="camera" camera look-controls>
             <a-cursor fuse="true" fuse-timeout="2000"></a-cursor>
         </a-camera>
-
 
         <!-- Punkteanzeige -->
         <a-entity id="scoreText" position="0.4 0.3 -1.5" text="value: Punkte: 0; color: #cc7a00; width: 3;"></a-entity>
@@ -61,7 +62,14 @@
         <!-- Pokémon-Spawner -->
         <a-entity id="pokemon-spawner" spawn-model="set: day"></a-entity>
 
-        <a-entity id="soundPlayer" sound="src: #catchSound; autoplay: false; positional: false; volume: 0.75;"></a-entity>
+        <a-entity id="soundPlayer" sound="src: #catchSound; autoplay: false; positional: false; volume: 0.;"></a-entity>
+
+        <!-- a-entity id="backgroundMusic"
+            sound="src: #musicDay; autoplay: true; loop: true; volume: 0.5; positional: false;">
+        </a-entity -->
+        <a-entity id="backgroundMusic"
+            sound="src: #musicNight; autoplay: true; loop: true; volume: 0.5; positional: false;">
+        </a-entity>
 
     </a-scene>
 </body>
